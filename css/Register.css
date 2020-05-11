@@ -61,3 +61,15 @@ body{
 .box input[type = "submit"]:hover{
     background: #9b59b6;
 }
+
+.box select {
+    position: relative;
+    font-family: Arial;
+    width: 100%;
+    padding: 16px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #9b59b6;
+  }
+
+  
