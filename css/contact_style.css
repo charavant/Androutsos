@@ -244,13 +244,8 @@ form .submit:hover{
 }
 
 
-body {
-
-
-}
-
 /* Full-width input fields */
-input[type=text], input[type=password] {
+.box input[type=text],.box input[type=password] {
   width: 80%;
   position: center;
   padding: 12px 20px;
@@ -260,6 +255,7 @@ input[type=text], input[type=password] {
   box-sizing: border-box;
   background-color: rgba(255, 255, 255, 0.7);
 }
+
 
 textarea[type=text]{
 	width: 80%;
@@ -293,6 +289,12 @@ button:hover {
   background-color: #f44336;
 }
 
+.signupbtn {
+	width: auto;
+	padding: 10px 18px;
+	background-color: #f44336;
+  }
+
 /* Center the image and position the close button */
 .imgcontainer {
   text-align: center;
@@ -307,6 +309,10 @@ img.avatar {
 
 .container {
   padding: 16px;
+  width: 100%;
+  
+  
+
 }
 
 span.psw {
@@ -329,12 +335,23 @@ span.psw {
   padding-top: 60px;
 }
 
+.modal input[type=text],.modal input[type=password] {
+	width: 100%;
+	position: center;
+	padding: 12px 20px;
+	margin: 8px 0;
+	display: inline-block;
+	border: 3px solid #00b3b3;
+	box-sizing: border-box;
+	background-color: rgba(255, 255, 255, 0.7);
+  }
+
 /* Modal Content/Box */
 .modal-content {
   background-color: #fefefe;
   margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
   border: 1px solid #888;
-  width: 80%; /* Could be more or less, depending on screen size */
+  width: 100%; /* Could be more or less, depending on screen size */
 }
 
 /* The Close Button (x) */
@@ -378,4 +395,22 @@ span.psw {
   .cancelbtn {
      width: 100%;
   }
+  .signupbtn {
+	width: 100%;
+ }
+
+ 
+}
+
+.modal.a:link, .modal.a:visited {
+	background-color: #f44336;
+	color: white;
+	padding: 14px 25px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+}
+
+.modal.a:hover, .modal.a:active {
+	background-color: red;
 }

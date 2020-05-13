@@ -2,6 +2,7 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Register</title>
     <link rel="stylesheet" href="css/Register.css">
   </head>
@@ -27,30 +28,30 @@
     
         <label for="psw"><b>Email</b></label>
         <input type="password" placeholder="Βάλε το email σου" name="psw" required>
-        
-        <select class="custom-select" id="vathmida" name="Βαθμίδα">
+        <div class="demo">
+          <div class="dropdown-container">
+            <select>
           <option value="Epilogi">Επέλεξε Βαθμίδα:</option>
           <option value="Dimotiko">Δημοτικό</option>
           <option value="Gimnasio">Γυμνάσιο</option>
           <option value="Lykeio">Λύκειο</option>
         </select>
+        <div class="select-icon">
+          <svg focusable="false" viewBox="0 0 390 610"  class="icon">
+            <path d="M143 256.3L7 120.3c-9.4-9.4-9.4-24.6 0-33.9l22.6-22.6c9.4-9.4 24.6-9.4 33.9 0l96.4 96.4 96.4-96.4c9.4-9.4 24.6-9.4 33.9 0L313 86.3c9.4 9.4 9.4 24.6 0 33.9l-136 136c-9.4 9.5-24.6 9.5-34 .1zm34 192l136-136c9.4-9.4 9.4-24.6 0-33.9l-22.6-22.6c-9.4-9.4-24.6-9.4-33.9 0L160 352.1l-96.4-96.4c-9.4-9.4-24.6-9.4-33.9 0L7 278.3c-9.4 9.4-9.4 24.6 0 33.9l136 136c9.4 9.5 24.6 9.5 34 .1z">
+            </path>
+          </svg>
+        </div>
 
         <button type="submit">Εγγραφή</button>
-        <label>
-          <input type="checkbox" checked="checked" name="remember"> Να με θυμάσαι
-        </label>
+        <button type="button" class="cancelbtn" onclick="index.html">Ακύρωση</button> 
+          <input type="checkbox" checked="checked" name="remember">  Να με θυμάσαι
+        
       </div>
     
-      <div class="container" style="background-color:#f1f1f1">
-        <button type="button" class="cancelbtn">Cancel</button>
-        <span class="psw">Forgot <a href="#">password?</a></span>
-      </div>
+      
     </form>
-  
-</form>
-<div class="custom-select" style="width:200px;">
-  
-</div>
+    
 
   </body>
 </html>
