@@ -37,6 +37,7 @@
 
 	<div class="wrapper">
 			<h1>Social Media</h1>
+			
 	</div>
 	
 	
@@ -45,7 +46,7 @@
 		<form>
 			<input type="text" name="Όνομα"  class="form-control" placeholder="Πληκτρολογίστε το όνομας σας" required><br>
 			<input type="text" name="E-mail"  class="form-control" placeholder="Πληκτρολογίστε το email σας" required><br>
-			<input type="text" name="E-mail"  class="form-control" placeholder="Πληκτρολογίστε την τάξη σας" required><br>
+			<input type="text" name="class"  class="form-control" placeholder="Πληκτρολογίστε την τάξη σας" required><br>
 			<textarea type="text" name="Σχόλιο"  class="form-control" placeholder="Μοιραστείτε την απορία σας" rows="4" required></textarea><br>
 			<input type="submit" name="" class="form-control submit" value="Καταχώρηση"><br>
 
@@ -59,7 +60,7 @@
 		<form class="modal-content animate" action="/action_page.php" method="post">
 		  <div class="imgcontainer">
 			<span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
-			<img src="img_avatar2.png" alt="Avatar" class="avatar">
+			<img src="team-avatar.png" alt="Avatar" class="avatar">
 		  </div>
 	  
 		  <div class="container">
@@ -69,7 +70,8 @@
 			<label for="psw"><b>Password</b></label>
 			<input type="password" placeholder="Enter Password" name="psw" required>
 			  
-			<button type="submit">Login</button>
+			<button class= "button" type="submit">Login</button>
+			<a href="Register.html" class="button">Register</a>
 			<label>
 			  <input type="checkbox" checked="checked" name="remember"> Remember me
 			</label>

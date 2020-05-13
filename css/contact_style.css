@@ -15,8 +15,8 @@ body{
 	color: #00b3b3;
 	font-family: Courier New;
 	font-weight: bold;
-	
-
+	stroke-width: 2%;
+	stroke: aliceblue;
 }
 
 .contact_title h1{
@@ -24,13 +24,14 @@ body{
 	font-size: 33px;
 	font-family: Courier New;
 	text-decoration: underline;
-
+	stroke-width: 2px;
+	stroke: aliceblue;
 
 }
 
 .Media ul{
      position: absolute;
-     top:33%;
+     top:44%;
      left:50%;
      display: flex;
      transform: translate(-50%,-50%);
@@ -103,8 +104,8 @@ body{
 	color:  #00b3b3;
 	font-size: 20px;
 	font-family: Courier New;
-	
-
+	stroke-width: 2px;
+	stroke: aliceblue;
 }
 
 
@@ -115,8 +116,8 @@ body{
 	font-size: 33px;
 	font-family: Courier New;
 	text-decoration: underline;
-
-
+	stroke-width: 2px;
+	stroke: aliceblue;
 }
 
 
@@ -124,18 +125,22 @@ body{
 	color:  #00b3b3;
 	font-size: 20px;
 	font-family: Courier New;
-	
+	stroke-width: 2px;
+	stroke: aliceblue;
 }
 
 .contact_title h4{
 	color:  #00b3b3;
 	font-size: 20px;
 	font-family: Courier New;
-	
+	stroke-width: 4px;
+	stroke: aliceblue;
 }
 
 form{
 	margin-top: 200px;
+	stroke-width: 2px;
+	stroke: aliceblue;
 }
 
 
@@ -146,18 +151,20 @@ form{
 	outline: none;
 	border-bottom: 4px solid gray;
 	color: #00b3b3;
-	font-size:20px;
+	font-size: 20px;
 	margin-bottom: 16px;
 	font-family: Courier New;
 	margin-bottom: 16px;
 	font-weight: bold;
-
+	stroke-width: 2px;
+	stroke: aliceblue;	
 
 }
 
 input{
 	height: 45px;
-
+	background-color: aliceblue;
+	
 }
 
 form .submit{
@@ -170,6 +177,8 @@ form .submit{
 	height:50px;
 	margin-top: 20px;
 	transition: 0.4s ease;
+	stroke-width: 2%;
+	stroke: aliceblue;
 }
 
 
@@ -188,7 +197,8 @@ form .submit:hover{
 	font-family: Courier New;
 	font-weight: bold;
 	text-decoration: underline;
-
+	stroke-width: 2%;
+	stroke: aliceblue;
 
 }
 
@@ -228,23 +238,38 @@ form .submit:hover{
 
 .main_menu ul li a:hover{
 
-background-color: #fff;
-color:#000;
+	background-color: #fff;
+	color:#000;
 
 }
 
 
-body {font-family: Arial, Helvetica, sans-serif;}
+body {
+
+
+}
 
 /* Full-width input fields */
 input[type=text], input[type=password] {
-  width: 100%;
+  width: 80%;
+  position: center;
   padding: 12px 20px;
   margin: 8px 0;
   display: inline-block;
-  border: 1px solid #ccc;
+  border: 3px solid #00b3b3;
   box-sizing: border-box;
+  background-color: rgba(255, 255, 255, 0.7);
 }
+
+textarea[type=text]{
+	width: 80%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	display: inline-block;
+	border: 3px solid #00b3b3;
+	box-sizing: border-box;
+	background-color: rgba(255, 255, 255, 0.7);
+  }
 
 /* Set a style for all buttons */
 button {

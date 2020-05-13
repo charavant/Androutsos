@@ -2,24 +2,51 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>َAnimated Login Form</title>
+    <title>Register</title>
     <link rel="stylesheet" href="css/Register.css">
   </head>
   <body>
 
-<form class="box" action="index.html" method="post">
-  <h1>Register</h1>
-  <input type="text" name="" placeholder="Username">
-  <input type="password" name="" placeholder="Password">
-  <input type="password" name="" placeholder="Repeat Password">
-  <input type="text" name="" placeholder="Email">
-  <select class="custom-select" id="vathmida" name="Βαθμίδα">
-    <option value="Epilogi">Επέλεξε Βαθμίδα:</option>
-    <option value="Dimotiko">Δημοτικό</option>
-    <option value="Gimnasio">Γυμνάσιο</option>
-    <option value="Lykeio">Λύκειο</option>
-  </select>
-  <input type="submit" name="" value="Εγγραφή">
+    <form  method="post">
+      <div class="imgcontainer">
+        <img src="team-avatar.png" alt="Avatar" class="avatar">
+      </div>
+    
+      <div class="container">
+        <h1>Εγγραφή Χρήστη</h1>
+        <p>Παρακαλώ συμπληρώστε την παρακάτω φόρμα για να εγγραφείτε</p>
+        <hr>
+        <label for="uname"><b>Όνομα Χρήστη</b></label>
+        <input type="text" placeholder="Βάλε Όνομα Χρήστη" name="uname" required>
+    
+        <label for="psw"><b>Κωδικός</b></label>
+        <input type="password" placeholder="Βάλε κωδικό" name="psw" required>
+        
+        <label for="uname"><b>Επανάληψη Κωδικού</b></label>
+        <input type="text" placeholder="Ξαναβάλε κωδικό" name="uname" required>
+    
+        <label for="psw"><b>Email</b></label>
+        <input type="password" placeholder="Βάλε το email σου" name="psw" required>
+        
+        <select class="custom-select" id="vathmida" name="Βαθμίδα">
+          <option value="Epilogi">Επέλεξε Βαθμίδα:</option>
+          <option value="Dimotiko">Δημοτικό</option>
+          <option value="Gimnasio">Γυμνάσιο</option>
+          <option value="Lykeio">Λύκειο</option>
+        </select>
+
+        <button type="submit">Εγγραφή</button>
+        <label>
+          <input type="checkbox" checked="checked" name="remember"> Να με θυμάσαι
+        </label>
+      </div>
+    
+      <div class="container" style="background-color:#f1f1f1">
+        <button type="button" class="cancelbtn">Cancel</button>
+        <span class="psw">Forgot <a href="#">password?</a></span>
+      </div>
+    </form>
+  
 </form>
 <div class="custom-select" style="width:200px;">
   
