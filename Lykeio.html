@@ -30,7 +30,7 @@
 				<li><a href="Gimnasio.html">Γυμνάσιο</a></li>
 				<li class="current"><a href="Lykeio.html">Λύκειο</a></li>
                 <li><a href="contact.html">Επικοινωνία</a></li>
-                <li><button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Σύνδεση</button></li>
+                <li><a onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Σύνδεση</a></li>
 
               </ul>
             </nav>
@@ -40,27 +40,32 @@
       <section>
         <div class="container">
           <article id="main-col">
-            <h1 id="faq-title" class="page-title">Frequently Asked Questions</h1>
+            <h1 id="faq-title" class="page-title">Οι Πιο Συνηθισμένες Ερωτήσεις της Βαθμίδας</h1>
             <ul id="faq-list">
 
-          <button class="accordion"><h3>Q.  Τί είναι η τετραγωνική ρίζα ενός αριθμού;</h3></button>
+          <button class="accordion"><h3>Q.  Τί είναι ο μιγαδικός αριθμός;</h3></button>
             <div class="panel">
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+              <p>Οι μιγαδικοί αριθμοί είναι μία επέκταση του συνόλου των πραγματικών αριθμών με την προσθήκη ενός στοιχείου, που λέγεται φανταστικός αριθμός.</p>
             </div>
 
-          <button class="accordion"><h3>Q.  Can you come shoot in X place?</h3></button>
+          <button class="accordion"><h3>Q.  Τί είναι η συνάρτηση;</h3></button>
             <div class="panel">
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+              <p>Στα μαθηματικά, συνάρτηση, ή απεικόνιση είναι μια αντιστοίχιση μεταξύ δύο συνόλων, που καλούνται σύνολο ορισμού και σύνολο τιμών, κατά την οποία κάθε ένα στοιχείο του πεδίου ορισμού αντιστοιχίζεται σε ένα και μόνο στοιχείο του πεδίου τιμών.</p>
             </div>
 
-          <button class="accordion"><h3>Q.  If you could pick anywhere in the world to shoot, where would you go?</h3></button>
+          <button class="accordion"><h3>Q.  Τί είναι η παράγωγος μιας συνάρτησης;</h3></button>
             <div class="panel">
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+              <p>Η παράγωγος μιας συνάρτησης (f(x)) είναι ένα μέτρο, που εκφράζει τη μεταβολή της τιμής (y = f(x)) της συνάρτησης, η οποία προσδιορίζεται από μια άλλη ποσότητα (x).</p>
             </div>
 
-          <button class="accordion"><h3>Q.  What's your favorite subject(s) to shoot?</h3></button>
+          <button class="accordion"><h3>Q.  Τί είναι το ολοκλήρωμα μιας συνάρτησης;</h3></button>
             <div class="panel">
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+              <p>Είναι το αντίστροφο της παραγώγου μιας συνάρτησης. Πιο συγκεκριμένα, ένα όριο που προσεγγίζει την επιφάνεια (μήκος, όγκο κ.λπ.) μιας καμπυλόγραμμης περιοχής με το να σπάει την περιοχή σε κάθετες λωρίδες.</p>
+            </div>
+          
+          <button class="accordion"><h3>Q.  Τί ονομάζεται μονοτονία μιας συνάρτησης;</h3></button>
+            <div class="panel">
+              <p>Η μονοτονία μιας συνάρτησης αναφέρεται ποιοτικά στην κατεύθυνση της μεταβολής των τιμών της στο πεδίο ορισμού της ή σε τμήμα αυτού.</p>
             </div>
           </ul>
           </article>
@@ -71,22 +76,19 @@
               <p>
                 <form class="message">
                   <div>
-                    <label>Name:</label>
-                    <br />
-                    <input id="input-name" type="text" size="44" placeholder="Enter your name..." required />
-                    <br />
-                    <br />
+                    <label>Όνομα:</label>
+                    <br /><br />
+                    <input id="input-name" type="text" size="44" placeholder="Πληκτρολογίστε το όνομα σας..." required />
+                    <br /><br />
                     <label>Email:</label>
-                    <br />
-                    <input id="input-email" type="email" size="44" placeholder="Enter your email..." required />
-                    <br />
-                    <br />
-                    <label>Message:</label>
-                    <br />
-                    <textarea id="faq-question" rows="10" cols="44" maxlength="420" wrap="soft" placeholder="Enter your query..." required></textarea>
-                    <br />
-                    <br />
-                    <input type="submit" class="btn" value="Submit" onclick="form.reset(); alert('Ευχαριστούμε για την ερώτηση! Θα επικοινωνήσουμε μαζί σας μόλις υπάρξει απάντηση');">
+                    <br /><br />
+                    <input id="input-email" type="email" size="44" placeholder="Πληκτρολογίστε το email σας..." required />
+                    <br /><br />
+                    <label>Ερώτηση:</label>
+                    <br /><br />
+                    <textarea id="faq-question" rows="10" cols="44" maxlength="420" wrap="soft" placeholder="Μοιραστείτε την απορία σας..." required></textarea>
+                    <br /><br />
+                    <input type="submit" class="btn" value="Καταχώρηση" onclick="form.reset(); alert('Ευχαριστούμε για την ερώτηση! Θα επικοινωνήσουμε μαζί σας μόλις υπάρξει απάντηση');">
                     <br />
                   </div>
                 </form>
@@ -95,6 +97,7 @@
           </aside>
         </div>
       </section>
+
 
 
     </body>
