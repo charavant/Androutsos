@@ -160,3 +160,52 @@
 
 }
 
+/* Full-width input fields */
+.box input[type=text],.box input[type=email],.box input[type=password] {
+	width: 80%;
+	position: center;
+	padding: 12px 20px;
+	margin: 8px 0;
+	display: inline-block;
+	border: 3px solid #00b3b3;
+	box-sizing: border-box;
+	background-color: rgba(255, 255, 255, 0.7);
+  }
+  
+  
+  textarea[type=text]{
+	  width: 80%;
+	  padding: 12px 20px;
+	  margin: 8px 0;
+	  display: inline-block;
+	  border: 3px solid #00b3b3;
+	  box-sizing: border-box;
+	  background-color: rgba(255, 255, 255, 0.7);
+	}
+
+  
+  form .submit{
+	background-color: #00b3b3;
+	border-color:transparent;
+	color: #fff;
+	font-size: 20px;
+	letter-spacing: 2px;
+	font-family: Courier New;
+	height:50px;
+	margin-top: 20px;
+	transition: 0.4s ease;
+	stroke-width: 2%;
+	stroke: aliceblue;
+}
+
+
+form .submit:hover{
+	background-color:  #fff;
+	color: #000;
+	cursor: pointer;
+	box-shadow: 0 0 10px #00b3b3, 0 0 40px  #00b3b3,0 0 80px #00b3b3;
+	transition-delay: .2s;
+
+}
+
+  
