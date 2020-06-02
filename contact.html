@@ -3,53 +3,82 @@
 <head>
 	<title>contact_us</title>
 	<link rel="stylesheet" type="text/css" href="css/contact_style.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
-</div>
-	<div class="main_menu">
-			<ul>
+
+
+
+
+
+<body>
+	<header>
+        <div class="container">
+          <div id="logo">
+            <h1><span class="highlight">Nameless</span></h1>
+          </div>
+            <nav>
+              <ul>
+				
 				<li><a href="index.html">Home</a></li>
 				<li><a href="Dimotiko.html">Δημοτικό</a></li>
 				<li><a href="Gimnasio.html">Γυμνάσιο</a></li>
 				<li><a href="Lykeio.html">Λύκειο</a></li>
+				<li class="active"><a href="contact.html">Contact</a></li>
 				<li><button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Σύνδεση</button></li>
-			</ul>	
-	</div>
-</div>
-
-<body>
-	<div class="Media">
-		<ul>
-			<br> <br> 
-			<li><a href="https://www.facebook.com/studentsforstudents.studentsforstudents.3"><i class="fa fa-facebook fa-1x" aria-hidden="true"></i></a></li>
-			<li><a href="https://www.instagram.com/stud_4_stud/?fbclid=IwAR0sp7QjrnuhzhOyy5cPRyMyIN4MXSTnoEy9k_7zoDkgx8cgdIANRUWKhAI"><i class="fa fa-instagram fa-1x" aria-hidden="true"></i></a></li>
-		</ul>
-	</div>
+              </ul>
+            </nav>
+        </div>
+      </header>
+	
 	
 	<div class="contact_title">
 		<h1>Επικοινωνήστε μαζί μας</h1>
-		<h2>Υποβολή ερώτησης</h2>
 		<h3>Email Επικοινωνίας: students4students@gmail.com </h3>
 		<h3>Τηλ. Επικοινωνίας: 210-9885572 </h3>
 	</div>
 
 	<div class="wrapper">
+		
 			<h1>Social Media</h1>
-			
+			<div class="Media">
+				<ul>
+					<br> <br> 
+					<li><a href="https://www.facebook.com/studentsforstudents.studentsforstudents.3"><i class="fa fa-facebook fa-1x" aria-hidden="true"></i></a></li>
+					<li><a href="https://www.instagram.com/stud_4_stud/?fbclid=IwAR0sp7QjrnuhzhOyy5cPRyMyIN4MXSTnoEy9k_7zoDkgx8cgdIANRUWKhAI"><i class="fa fa-instagram fa-1x" aria-hidden="true"></i></a></li>
+				</ul>
 	</div>
 	
+	</div>
 	
 	
 	<div class="box">
 		<form>
-			<input type="text" name="Όνομα"  class="form-control" placeholder="Πληκτρολογίστε το όνομας σας" required><br>
-			<input type="text" name="E-mail"  class="form-control" placeholder="Πληκτρολογίστε το email σας" required><br>
-			<input type="text" name="class"  class="form-control" placeholder="Πληκτρολογίστε την τάξη σας" required><br>
-			<textarea type="text" name="Σχόλιο"  class="form-control" placeholder="Μοιραστείτε την απορία σας" rows="4" required></textarea><br>
-			<input type="submit" name="" class="form-control submit" value="Καταχώρηση"><br>
-
+			<aside id="sidebar">
+				<div class="dark">
+				  <h3 style="text-align: center; text-decoration: underline;">Έχετε κάποια απορία? Επικοινωνήστε μαζί μας!</h3>
+				  <p>
+					<form class="message">
+					  <div>
+						<br />
+						<input id="input-name" type="text" size="64" placeholder="Πληκτρολογίστε το όνομα σας..." required />
+						<br />
+						<br />
+						<input id="input-email" type="email" size="44" placeholder="Πληκτρολογίστε το email σας..." required />
+						<br />
+						<br />
+						<textarea id="faq-question" type="text" rows="10" cols="44" maxlength="420" wrap="soft" placeholder="Μοιραστείτε την απορία σας..." required></textarea>
+						<br />
+						<br />
+						<input type="submit" name="" class="form-control submit" value="Καταχώρηση" onclick="form.reset(); alert('Ευχαριστούμε για την ερώτηση! Θα επικοινωνήσουμε μαζί σας μόλις υπάρξει απάντηση');"><br>
+						<br />
+					  </div>
+					</form>
+				  </p>
+				</div>
+			  </aside>
 		</form>
 		
 
