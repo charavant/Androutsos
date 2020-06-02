@@ -2,62 +2,58 @@
  "http://www.w3.org/TR/html4/strict.dtd">
 <html>
 <head>
-	<title>project</title>
-	<link rel="stylesheet" type="text/css" href="css/style.css">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" type="text/css" href="css/FAQ.css">
+	<link rel="stylesheet" type="text/css" href="css/Login.css">
 	<link href='https://fonts.googleapis.com/css?family=Playfair+Display' rel='stylesheet'>
     <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 		<link rel="icon" href="/favicon.ico" type="image/x-icon">
 </head>
+<title>
+	Κεντρική Σελίδα
+  </title>
+</head>
+
 <body>
 	<header>
-
-		
-		<div class="main">
-			<div class="container">
-				
-				  <nav>
-					<div id="logo">
-						<h1><span class="highlight">Ergasia</span></h1>
-					  </div>
-					<ul>
-					  
-					  <li class="active"><a href="index.html">Home</a></li>
-					  <li><a href="Dimotiko.html">Δημοτικό</a></li>
-					  <li><a href="Gimnasio.html">Γυμνάσιο</a></li>
-					  <li><a href="Lykeio.html">Λύκειο</a></li>
-					  <li><a href="contact.html">Contact</a></li>
-					  <li><button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Σύνδεση</button></li>
-					</ul>
-				  </nav>
-			  </div>
-			</header>
-
-			</div>
+	  <div class="container">
+		<div id="logo">
+		  <h1><span class="highlight">The Students</span></h1>
+		  <h2><span class="highlight">4 the Students</span></h2>
 		</div>
-
-		<div class="title">
-			<h1>Καλώς ήρθατε στο ταξίδι της γνώσης!</h1>
-			</br>
-			<h1>Μοιραστείτε και λύστε τις απορίες σας</h1>
-			<div class="button">
-						</br></br></br></br>
-						<a href="contact.html" class="btn">Υποβολή Αποριών</a>
-			</div>
-		</div>
-
+		  <nav>
+			<ul>
+			  	<li class="current"><a href="index.html">Κεντρική</a></li>
+			 	<li><a href="Dimotiko.html">Δημοτικό</a></li>
+			  	<li><a href="Gimnasio.html">Γυμνάσιο</a></li>
+			  	<li><a href="Lykeio.html">Λύκειο</a></li>
+	  			<li><a href="contact.html">Επικοινωνία</a></li>
+	  			<li><a onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Σύνδεση</a></li>
+			</ul>
+		  </nav>
+	  </div>
+	</header>
 		
+	<div class="title">
+		<h1>Καλώς ήρθατε στο ταξίδι της γνώσης!</h1>
+		</br></br></br></br>
+		<h1>Μοιραστείτε και λύστε τις απορίες σας</h1>
+		<div class="button">
+			</br></br></br></br>
+			<a href="contact.html" class="btn">Υποβολή Αποριών</a>
+		</div>
+	</div>
 
-		<div id="id01" class="modal">
-  
-			<form class="modal-content animate" action="/action_page.php" method="post">
-			  <div class="imgcontainer">
+	<div id="id01" class="modal">
+		<form class="modal-content animate" action="/action_page.php" method="post">
+			<div class="imgcontainer">
 				<span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
 				<img src="team-avatar.png" alt="Avatar" class="avatar">
-			  </div>
+			</div>
 		  
-			  <div class="container">
+			<div class="container">
 				<label for="uname"><b>Όνομα Χρήστη</b></label>
 				<input type="text" placeholder="Βάλε Όνομα Χρήστη" name="uname" required>
 		  
@@ -69,27 +65,25 @@
 				<label>
 				  <input type="checkbox" checked="checked" name="remember"> Να με θυμάσαι
 				</label>
-			  </div>
+			</div>
 		  
-			  <div class="container" style="background-color:#f1f1f1">
+			<div class="container" style="background-color:#f1f1f1">
 				<button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
 				<span class="psw">Ξέχασες τον <a href="#">κωδικό;</a></span>
-			  </div>
-			</form>
-		  </div>
-		  <script>
-			// Get the modal
-			var modal = document.getElementById('id01');
+			</div>
+		</form>
+	</div>
+		  
+	<script>
+		// Get the modal
+		var modal = document.getElementById('id01');
 			
-			// When the user clicks anywhere outside of the modal, close it
-			window.onclick = function(event) {
-				if (event.target == modal) {
-					modal.style.display = "none";
-				}
+		// When the user clicks anywhere outside of the modal, close it
+		window.onclick = function(event) {
+			if (event.target == modal) {
+				modal.style.display = "none";
 			}
-			</script>
-		
-	</header>
-
+		}
+	</script>
 </body>
 </html>
