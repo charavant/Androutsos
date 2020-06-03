@@ -33,10 +33,7 @@ ul {
   color: #ffffff;
 }
 
-.btn {
-  position: relative;
-  left: 125px;
-}
+
 
 .button_1:hover, .btn:hover {
   color: #cccccc;
@@ -172,83 +169,79 @@ article#about {
   text-decoration: underline;
 }
 
-button.accordion {
-    background-color: #eee;
-    color: #444;
-    cursor: pointer;
-    padding: 18px;
-    width: 100%;
-    text-align: left;
-    border: none;
-    outline: none;
-    transition: 0.6s;
-}
 
-button.accordion.active, button.accordion:hover {
-    background-color: #ccc;
-}
+/* Start CSS of the accordion */
 
-button.accordion:after {
-    content: '\2199';
-    font-size: 11px;
-    color: #777;
-    float: right;
-    margin-left: 0px;
-    margin-top: -9px;
+.accordion label {
+  display:block;
+  background-color: #eeeeee;
+  padding: 0 15px;
+  height: 3em;
+  line-height: .5em;
+  color: #424242;
+  cursor: pointer;
+  border-bottom: 1px solid #bdbdbd;
+  border-top: 1px solid #ffffff;
 }
-
-button.accordion.active:after {
-    content: "\2b10";
-}
-
-div.panel {
-    padding: 0 18px;
-    background-color: white;
-    max-height: 0;
-    overflow: hidden;
-    transition: max-height 0.4s ease-out;
-}
-
-#faq-list li {
-  list-style: none;
-  padding: 20px;
-  border: #cccccc solid 1px;
-  margin-bottom: 5px;
-  background: #e6e6e6;
-}
-
-#faq-question {
-  resize: none;
-  overflow: hidden;
-}
-
-ul{
-	float:right;
-	list-style-type:  none;
-	margin-top: 10px;
-	text-align:center;
-  position: relative;
-    top: 10px;
-    right: 10px;
-}
-
-ul li a{
-	text-decoration: none;
-	color: #fff;
-	padding: 5px 20px;
-	border:1px solid transparent;
-	transition: 0.6s ease;
-}
-
-ul li a:hover{
+.accordion p {
+  color: #424242;
+  padding: 10px;
+  font-size: 0.8em;
+  line-height: 1.7em;
+  opacity: 0;
+  display: none;
+  text-align: left;
   background-color: #fff;
-  color:#000;
+  margin: 0px;
+}
+#tm1:checked ~ .hiddentext {
+  display: block;
+  opacity: 1;
+}
+input#tm1 {
+  display: none;
+  position: relative;
 }
 
-ul li.active a{
-	background-color: #fff;
-	color: #000;
+#tm2:checked ~ .hiddentext {
+  display: block;
+  opacity: 1;
 }
+input#tm2 {
+  display: none;
+  position: relative;
+}
+#tm3:checked ~ .hiddentext {
+  display: block;
+  opacity: 1;
+}
+input#tm3 {
+  display: none;
+  position: relative;
+}
+#tm4:checked ~ .hiddentext {
+  display: block;
+  opacity: 1;
+}
+input#tm4 {
+  display: none;
+  position: relative;
+}
+#tm5:checked ~ .hiddentext {
+  display: block;
+  opacity: 1;
+}
+input#tm5 {
+  display: none;
+  position: relative;
+}
+
+.arrow{
+  color: #666666;
+}
+
+
+
 
 .main{
 	max-width: 1200px;
@@ -270,20 +263,22 @@ ul li.active a{
 
 .title.button{
 	position: absolute;
-  top: 50%;
-  left: 50%;
+	top:50%;
+	left:60%;
+ 
   transform:translate(-50%,-50%);
 }
 
 .btn{
   
+  border-radius: 10%;
 	border: none;
-	padding:10px ,30px;
+	padding:30px ,60px;
 	color: #fff;
 	text-decoration: none;
 	font-family: Courier New;
 	font-weight: bold;
-	font-size: 20px;
+	font-size: 30px;
 	transition: 0.6s;
 }
 

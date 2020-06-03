@@ -43,30 +43,41 @@
             <h1 id="faq-title" class="page-title">Οι Πιο Συνηθισμένες Ερωτήσεις της Βαθμίδας</h1>
             <ul id="faq-list">
 
-          <button class="accordion"><h3>Q.  Τί είναι η τετραγωνική ρίζα ενός αριθμού;</h3></button>
-            <div class="panel">
-              <p>Είναι ο αριθμός, που όταν υψωθεί στη την δεύτερη δύναμη, θα παράγει τον αρχικό αριθμό.</p>
-            </div>
+              <div id="container">
+                <div class="accordion">
+                  <label for="tm" class="accordionitem"><h2>Q.  Τί ονομάζουμε δύναμη (p) ενός αριθμού (x);<span class="arrow">&raquo;</span></h2></label>
+                  <input type="checkbox" id="tm1"/>
+                  <p class="hiddentext">Είναι το γινόμενο, συνολικά, p όρων, που είναι ίσοι με x.</p>
+                </div>
+                <div id="container">
+                  <div class="accordion">
+                    <label for="tm" class="accordionitem"><h2>Q.  Τί είναι η παραγοντοποίηση;<span class="arrow">&raquo;</span></h2></label>
+                    <input type="checkbox" id="tm2"/>
+                    <p class="hiddentext">Είναι η διαδικασία μετατροπής ενός πολυωνύμου ή αλγεβρικής παράστασης σε γινόμενο.</p>
+                  </div>
 
-          <button class="accordion"><h3>Q.  Τί ονομάζεται αριθμητική τιμή μιας αλγεβρικής παράστασης;</h3></button>
-            <div class="panel">
-              <p>Είναι ο αριθμός, που προκύπτει, εάν αντικατασταθούν οι μεταβλητές μιας αριθμητικής παράστασης, με συγκεκριμένους αριθμούς και πραγματοποιηθούν οι αντίστοιχες αριθμητικές πράξεις.</p>
-            </div>
+                  <div id="container">
+                    <div class="accordion">
+                      <label for="tm" class="accordionitem"><h2>Q.  Τί ονομάζεται πολυώνυμο;<span class="arrow">&raquo;</span></h2></label>
+                      <input type="checkbox" id="tm3"/>
+                      <p class="hiddentext">Είναι ένα άθροισμα μονωνύμων, τα οποία δεν είναι όμοια.</p>
+                    </div>
 
-          <button class="accordion"><h3>Q.  Τί ονομάζεται πολυώνυμο;</h3></button>
-            <div class="panel">
-              <p>Είναι ένα άθροισμα μονωνύμων, τα οποία δεν είναι όμοια.</p>
-            </div>
+                    <div id="container">
+                      <div class="accordion">
+                        <label for="tm" class="accordionitem"><h2>Q.  Τί ονομάζεται αριθμητική τιμή μιας αλγεβρικής παράστασης;<span class="arrow">&raquo;</span></h2></label>
+                        <input type="checkbox" id="tm4"/>
+                        <p class="hiddentext">Είναι ο αριθμός, που προκύπτει, εάν αντικατασταθούν οι μεταβλητές μιας αριθμητικής παράστασης, με συγκεκριμένους αριθμούς και πραγματοποιηθούν οι αντίστοιχες αριθμητικές πράξεις.</p>
+                      </div>
 
-          <button class="accordion"><h3>Q.  Τί είναι η παραγοντοποίηση;</h3></button>
-            <div class="panel">
-              <p>Είναι η διαδικασία μετατροπής ενός πολυωνύμου ή αλγεβρικής παράστασης σε γινόμενο.</p>
-            </div>
-
-            <button class="accordion"><h3>Q.  Τί ονομάζουμε δύναμη (p) ενός αριθμού (x);</h3></button>
-            <div class="panel">
-              <p>Είναι το γινόμενο, συνολικά, p όρων, που είναι ίσοι με x.</p>
-            </div>
+                      <div id="container">
+                        <div class="accordion">
+                          <label for="tm" class="accordionitem"><h2>Q.  Τί είναι η τετραγωνική ρίζα ενός αριθμού;<span class="arrow">&raquo;</span></h2></label>
+                          <input type="checkbox" id="tm5"/>
+                          <p class="hiddentext">Είναι ο αριθμός, που όταν υψωθεί στη την δεύτερη δύναμη, θα παράγει τον αρχικό αριθμό.</p>
+                        </div>
+                    
+          
           </ul>
           </article>
 
@@ -79,6 +90,10 @@
                     <label>Όνομα:</label>
                     <br /><br />
                     <input id="input-name" type="text" size="44" placeholder="Πληκτρολογίστε το όνομα σας..." required />
+                    <br /><br />
+                    <label>Τάξη:</label>
+                    <br /><br />
+                    <input id="input-class" type="text" size="44" placeholder="Πληκτρολογίστε την τάξη σας..." required />
                     <br /><br />
                     <label>Email:</label>
                     <br /><br />

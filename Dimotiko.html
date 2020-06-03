@@ -43,30 +43,39 @@
             <h1 id="faq-title" class="page-title">Οι Πιο Συνηθισμένες Ερωτήσεις της Βαθμίδας</h1>
             <ul id="faq-list">
 
-          <button class="accordion"><h3>Q.  Τί είναι η πρόσθεση;</h3></button>
-            <div class="panel">
-              <p>Η πρόσθεση είναι μία μαθηματική πράξη, που αντιπροσωπεύει το συνολικό ποσό των αντικειμένων, μαζί, σε μια συλλογή.</p>
-            </div>
+              <div id="container">
+                <div class="accordion">
+                  <label for="tm" class="accordionitem"><h2>Q.  Τί είναι η πρόσθεση; <span class="arrow">&raquo;</span></h2></label>
+                  <input type="checkbox" id="tm1"/>
+                  <p class="hiddentext">Η πρόσθεση είναι μία μαθηματική πράξη, που αντιπροσωπεύει το συνολικό ποσό των αντικειμένων, μαζί, σε μια συλλογή.</p>
+                </div>
+                <div id="container">
+                  <div class="accordion">
+                    <label for="tm" class="accordionitem"><h2>Q.  Τί είναι η αφαίρεση;<span class="arrow">&raquo;</span></h2></label>
+                    <input type="checkbox" id="tm2"/>
+                    <p class="hiddentext">Η αφαίρεση είναι μια από τις τέσσερις βασικές αριθμητικέ πράξεις, και είναι η αντίθετη της πρόσθεση, σημαίνει ότι αν αρχίσουμε με οποιοδήποτε αριθμό και προσθέσουμε οποιονδήποτε και μετά αφαιρέσουμε τον ίδιο αριθμό που προσθέσαμε, επιστρέφουμε στον αριθμό που αρχίσαμε.</p>
+                  </div>
 
-          <button class="accordion"><h3>Q.  Τί είναι η αφαίρεση;</h3></button>
-            <div class="panel">
-              <p>Η αφαίρεση είναι μια από τις τέσσερις βασικές αριθμητικέ πράξεις, και είναι η αντίθετη της πρόσθεση, σημαίνει ότι αν αρχίσουμε με οποιοδήποτε αριθμό και προσθέσουμε οποιονδήποτε και μετά αφαιρέσουμε τον ίδιο αριθμό που προσθέσαμε, επιστρέφουμε στον αριθμό που αρχίσαμε.</p>
-            </div>
+                  <div id="container">
+                    <div class="accordion">
+                      <label for="tm" class="accordionitem"><h2>Q.  Τί είναι ο πολλαπλασιασμός;<span class="arrow">&raquo;</span></h2></label>
+                      <input type="checkbox" id="tm3"/>
+                      <p class="hiddentext">Ο πολλαπλασιασμός είναι η μαθηματική πράξη της κλιμάκωσης ενός αριθμού από έναν άλλο.</p>
+                    </div>
 
-          <button class="accordion"><h3>Q.  Τί είναι ο πολλαπλασιασμός;</h3></button>
-            <div class="panel">
-              <p>Ο πολλαπλασιασμός είναι η μαθηματική πράξη της κλιμάκωσης ενός αριθμού από έναν άλλο.</p>
-            </div>
+                    <div id="container">
+                      <div class="accordion">
+                        <label for="tm" class="accordionitem"><h2>Q.  Τί είναι η διαίρεση;<span class="arrow">&raquo;</span></h2></label>
+                        <input type="checkbox" id="tm4"/>
+                        <p class="hiddentext">Είναι ο πολλαπλασιασμός ενός αριθμού με τον αντίστροφο ενός άλλου.</p>
+                      </div>
 
-          <button class="accordion"><h3>Q.  Τί είναι η διαίρεση;</h3></button>
-            <div class="panel">
-              <p>Είναι ο πολλαπλασιασμός ενός αριθμού με τον αντίστροφο ενός άλλου.</p>
-            </div>
-
-          <button class="accordion"><h3>Q.  Τί είναι το κλάσμα;</h3></button>
-            <div class="panel">
-              <p>Είναι η έννοια του κομματιού του μέρους ενός συνόλου.</p>
-            </div>
+                      <div id="container">
+                        <div class="accordion">
+                          <label for="tm" class="accordionitem"><h2>Q.  Τί είναι το κλάσμα;<span class="arrow">&raquo;</span></h2></label>
+                          <input type="checkbox" id="tm5"/>
+                          <p class="hiddentext">Είναι η έννοια του κομματιού του μέρους ενός συνόλου.</p>
+                        </div>
           </ul>
           </article>
 
@@ -79,6 +88,10 @@
                     <label>Όνομα:</label>
                     <br /><br />
                     <input id="input-name" type="text" size="44" placeholder="Πληκτρολογίστε το όνομα σας..." required />
+                    <br /><br />
+                    <label>Τάξη:</label>
+                    <br /><br />
+                    <input id="input-class" type="text" size="44" placeholder="Πληκτρολογίστε την τάξη σας..." required />
                     <br /><br />
                     <label>Email:</label>
                     <br /><br />
